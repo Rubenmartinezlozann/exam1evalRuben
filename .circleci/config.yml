@@ -5,8 +5,8 @@ jobs:
       - image: circleci/ruby:2.6.3-stretch-node
     
     steps:
-        - checkout
+    - checkout
 
-    run:
+    - run:
           name: Ruben
           command: echo "Rubén"
