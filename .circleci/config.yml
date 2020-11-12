@@ -7,6 +7,6 @@ jobs:
     steps:
         - checkout
 
-    - run:
+    run:
           name: Ruben
           command: echo "Rubén"
